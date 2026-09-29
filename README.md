@@ -1,4 +1,4 @@
-# RecallDesk 🧠
+# RecallDesk 
 
 ## AI Customer Support Agent That Remembers
 
@@ -115,4 +115,63 @@ Store New Interaction
 Future Conversations Can Recall It
 
 The agent can therefore answer questions using information learned from previous support interactions.
+🔥 Example: Payment Failure
 
+Consider a customer who previously reported a payment problem.
+
+Previous conversation
+Customer:
+My payment keeps failing. I already tried refreshing the page.
+
+Agent:
+Since refreshing did not help, let's try resetting your checkout session.
+
+Customer:
+That worked. The payment went through.
+
+RecallDesk retains the useful information from this interaction.
+
+The system can remember:
+
+Issue:
+Payment failure
+
+Attempt:
+Refresh page
+
+Result:
+Failed
+
+Previous successful solution:
+Reset checkout session
+
+Result:
+Payment succeeded
+
+Later, the customer returns:
+
+Customer:
+My payment is failing again.
+
+Instead of starting from zero, RecallDesk recalls the relevant history.
+
+The agent can respond:
+
+I remember that you previously experienced a similar
+payment failure. Refreshing the page did not resolve it,
+while resetting the checkout session successfully fixed
+the problem.
+
+You can try the previously successful approach again.
+
+The important part is not simply generating a response.
+
+The important part is:
+
+Past experience
+       ↓
+Memory
+       ↓
+Recall
+       ↓
+Better future response
